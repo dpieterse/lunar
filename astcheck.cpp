@@ -875,8 +875,8 @@ int main( const int argc, const char **argv)
 
             assert( day_data[0]);
             assert( day_data[1]);
-            if( is_between( day_data[0][i].ra, day_data[1][i].ra, int_ra, tolerance2 + 20))
-               if( is_between( day_data[0][i].dec, day_data[1][i].dec, int_dec, tolerance2 + 20))
+            if( is_between( day_data[0][i].ra, day_data[1][i].ra, int_ra, tolerance2 + 5))
+               if( is_between( day_data[0][i].dec, day_data[1][i].dec, int_dec, tolerance2 + 5))
                   {
                   ELEMENTS class_elem;
                   double ra1, dec1, mag;
